@@ -1,0 +1,97 @@
+body {
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(images/mountains.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: "gilroy", sans-serif;
+    font-size: 18px;
+    line-height:1.4;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#divMain { 
+ 	margin: 0 auto; 
+ 	padding: 0; 
+ 	width: 1500px; 
+ 	text-align: left;
+} 
+
+.navbar {
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-style: oblique;
+	font-size: 20px;
+	
+}
+
+.navbar-logo {
+	justify-content: center;
+	margin-right: 75px;
+}
+
+.navbar-cns {
+	padding-left: 20px;
+	
+}
+
+.navbar-ul {
+	margin-left: 20px;
+}
+
+.navbar-a {
+	padding-right: 10px;
+}
+
+.header_body-inner {
+	margin-left: 100px;
+}
+
+.header_body-title {
+	animation: h1 1.3s 1;
+	font-size: 50px;
+}
+
+@keyframes h1 {
+    0% {
+        margin-left: -200px;
+        color: rgba(0, 0, 0, 0.0);
+    }
+}
+
+.header_body-text {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.header_body-second {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	align-items: flex-end;
+}
+
+.header_body-button {
+	font-size: 20px;
+	width: 200px;
+	height: 75px;
+	background: white;
+	font-family: "gilroy", sans-serif;
+	border: 1px solid white;
+	border-radius: 40px;
+	transition: 0.15s;
+}
+
+.header_body-button:hover {
+	background: rgba(255, 255, 255, 0.3);
+	color: white;
+}
